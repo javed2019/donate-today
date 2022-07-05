@@ -64,7 +64,7 @@
 #textbox{
     display: flex;
     margin-left: 275px;
-    }
+}
 
 .grey-textbox{
     font-size: 30px;
@@ -89,11 +89,38 @@
 #number-input{
     margin: 50px;
     padding: 0px 30px;
-
 }
 
 #input{
-    width: 80%;
+    width: 1500px;
     height: 35px;
-    margin 0px;
+    margin: 0px;
+}
+
+#section3-h1{
+    padding: 50px 350px 50px 600px;
+    color: #000000;
+    font-weight: bold; 
+}
+
+#section3-p{
+    max-width: 80%;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 35px;
+    color:grey
+}
+
+#section3-textbox{
+    display: flex;
+    margin-left: 275px;
+}
+
+.green-textbox{
+    font-size: 30px;
+    padding: 50px;
+    margin-right: 30px;
+    margin-top: 100px;
+    border-color: rgb(55, 54, 54);
+    background-color: rgba(154, 154, 154, 0.178);
 }
