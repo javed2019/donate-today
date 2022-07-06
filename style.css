@@ -32,7 +32,6 @@
 #section-one{
     background-image: url(./images/section1image.png);
     background-repeat: no-repeat;
-    
 }
 
 #section1-first-h1{
@@ -106,8 +105,6 @@
     font-weight: bold; 
 }
 
-
-
 #section3-p{
     max-width: 80%;
     text-align: center;
@@ -119,6 +116,7 @@
 #section3-textbox{
     display: flex;
     margin-left: 100px;
+    margin-top: 0px;
 }
 
 #green-textbox{
@@ -126,7 +124,7 @@
     width: 400px;
     font-size: 30px;
     padding: 50px;
-    margin: 100px 30px 100px 0px;
+    margin: 50px 30px 100px 0px;
     border-color: rgb(174, 222, 89);
     background-color: rgb(211, 229, 192);
 }
@@ -136,7 +134,7 @@
     width: 400px;
     font-size: 30px;
     padding: 50px;
-    margin: 100px 30px 100px 0px;
+    margin: 50px 30px 100px 0px;
     border-color: rgb(226, 108, 237);
     background-color: rgb(237, 215, 234);
 }
@@ -146,7 +144,7 @@
     width: 400px;
     font-size: 30px;
     padding: 50px;
-    margin: 100px 30px 100px 0px;
+    margin: 50px 30px 100px 0px;
     border-color: rgb(233, 237, 96);
     background-color: rgb(244, 243, 189);
 }
@@ -165,8 +163,8 @@
 #section-four{
     display: flex;
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
 
 #section-four-leftDiv{
@@ -202,33 +200,48 @@
 
 #subscription-div{
     display: flex;
-    height: 100px;
+    height: 50px;
     width: 400px;
     font-size: 30px;
-    padding: 50px;
+    padding: 80px 75px 75px 150px;
     margin: 100px 30px 100px 550px;
     border-color: rgb(233, 237, 96);
     background-color: rgb(189, 244, 239);
 }
 
-#section5-submit{
-    font-size: 22px;
-    padding: 10px 30px;
-    background-image: -moz-linear-gradient(red, orange);
-    color: aliceblue;
-    font-weight:bold;
-    border-radius: 10px;
-    margin-top: 50px;
-   }
-
-   #section5-input{
+#section5-input{
     font-size: 22px;
     width: 150px;
-    height: 50px;
+    height: 45px;
     padding: 0px;
+    color: grey;
+    font-weight:bold;
+    border-radius: 10px;
+       }
+
+#section5-submit{
+    font-size: 22px;
+    padding: 0px;
+    width: 150px;
+    height: 50px;
     background-image: -moz-linear-gradient(red, orange);
     color: aliceblue;
     font-weight:bold;
     border-radius: 10px;
-    margin-top: 50px;
-   }
+    }
+
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: #000000;
+}
+
+#footer-p1{
+    color: orangered;
+    font-size: 30px;
+}
+
+#footer-p2{
+    color:orange;
+    font-size: 15px;
+}
