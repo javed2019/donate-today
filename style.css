@@ -22,7 +22,7 @@
 .button{
     font-size: 22px;
     padding: 10px 30px;
-    background-image: -moz-linear-gradient(red, orange);
+    background-image: linear-gradient(red, orange);
     color: aliceblue;
     font-weight:bold;
     border-radius: 10px;
@@ -191,7 +191,7 @@
 #section4-button{
     font-size: 22px;
     padding: 10px 30px;
-    background-image: -moz-linear-gradient(red, orange);
+    background-image: linear-gradient(red, orange);
     color: aliceblue;
     font-weight:bold;
     border-radius: 10px;
@@ -224,7 +224,7 @@
     padding: 0px;
     width: 150px;
     height: 50px;
-    background-image: -moz-linear-gradient(red, orange);
+    background-image:linear-gradient(red, orange);
     color: aliceblue;
     font-weight:bold;
     border-radius: 10px;
